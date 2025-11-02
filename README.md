@@ -39,7 +39,7 @@ O template desenvolvido neste desafio realiza as seguintes tarefas:
 📄 **Exemplo de Template (YAML):**
 
 ```yaml
-AWSTemplateFormatVersion: '2010-09-09'
+AWSTemplateFormatVersion: '2025-11-02'
 Description: "Template de exemplo - Criação de um bucket S3 e uma instância EC2"
 
 Parameters:
@@ -52,7 +52,7 @@ Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: meu-bucket-exemplo-cloudformation
+      BucketName: meu-bucket-desafio-cloudformation
 
   EC2Instance:
     Type: AWS::EC2::Instance
